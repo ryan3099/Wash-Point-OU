@@ -1,67 +1,102 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>CAP Garland, LLC</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wash Point OU</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f0f0f0;
-      color: #333;
-    }
+    body { margin: 0; font-family: 'Segoe UI', sans-serif; background: #ffffff; color: #222; }
     header {
-      background-color: #003366;
+      background: #2196f3;
       color: white;
       padding: 30px 20px;
       text-align: center;
     }
-    section {
-      max-width: 800px;
-      margin: 40px auto;
-      padding: 0 20px;
+    header h1 { margin: 0; font-size: 2.4em; }
+    header p { margin-top: 10px; font-size: 1em; }
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 40px 20px;
+      gap: 30px;
     }
-    h1, h2 {
-      color: #003366;
+    .card {
+      width: 300px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      border-radius: 10px;
+      overflow: hidden;
+      border: 1px solid #ddd;
     }
-    .contact {
-      background: #fff;
-      padding: 20px;
-      border-left: 5px solid #003366;
-      margin-top: 30px;
+    .card img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+    }
+    .card h3 {
+      font-size: 1.4em;
+      margin: 20px 0 10px;
+      color: #0d47a1;
+    }
+    .card p {
+      padding: 0 15px 20px;
+      font-size: 0.95em;
+      color: #444;
+    }
+    .card button {
+      background: #0d47a1;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      margin-bottom: 20px;
+      font-weight: bold;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .card button:hover {
+      background: #1976d2;
     }
     footer {
-      background-color: #003366;
+      background: #0d47a1;
       color: white;
       text-align: center;
-      padding: 15px;
-      margin-top: 50px;
+      padding: 20px;
+      font-size: 0.9em;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>CAP Garland, LLC</h1>
-    <p>Private Investment Fund</p>
+    <h1>Wash Point OU</h1>
+    <p>tn 31 Tartu, 50113 Estonia | contact@wpoint.shop | +37258262350</p>
   </header>
 
-  <section>
-    <h2>About Us</h2>
-    <p>CAP Garland, LLC is a Washington-based private investment fund focused on delivering value through diversified investment strategies.</p>
-
-    <h2>Contact</h2>
-    <div class="contact">
-      <p><strong>Address:</strong> 915 W 2nd Ave, Spokane, WA 99201</p>
-      <p><strong>Email:</strong> <a href="mailto:ryanberg@capgarland.shop">ryanberg@capgarland.shop</a></p>
-      <p><strong>Phone:</strong> (509) 822-3850</p>
+  <div class="services">
+    <div class="card">
+      <img src="https://nazarnews.org/media/news_images/2022/01/27/NazarNews_45117764272270074081283165066179487556.jpg" alt="Laundry/Dry-Cleaning">
+      <h3>Laundry/Dry-Cleaning</h3>
+      <p>Book Pickup: Enjoy the ease of scheduling a pickup for your laundry or dry cleaning needs. Our team will collect your garments at your convenience, saving you time and effort.</p>
+      <button>LEARN MORE</button>
     </div>
-  </section>
+
+    <div class="card">
+      <img src="https://fastly.4sqi.net/img/general/600x600/12305020_dPlroaEyWe66sohnM60E1yToOlC3ueZE5GxaqQtTa3Q.jpg" alt="Laundromat Service">
+      <h3>Laundromat Service</h3>
+      <p>Bulk Order: Experience the convenience of arranging pickups for your bulk laundry or dry cleaning orders. Our team will efficiently gather your garments at a time that suits you best.</p>
+      <button>LEARN MORE</button>
+    </div>
+
+    <div class="card">
+      <img src="https://perm.planeta-mall.ru/i/97/22/0/97220/file.jpg" alt="Pickup Service">
+      <h3>Pickup Service</h3>
+      <p>Visit Us Today: Experience our recommended walk-in services! Get a personalized consultation and immediate help with your garment care needs.</p>
+      <button>REQUEST PICKUP</button>
+    </div>
+  </div>
 
   <footer>
-    &copy; 2025 CAP Garland, LLC. All rights reserved.
+    <p>© 2025 Wash Point OU. All rights reserved.</p>
   </footer>
 </body>
 </html>
